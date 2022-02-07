@@ -3,7 +3,7 @@ import Docs from "./components/Docs.vue";
 import Tags from "./components/Tags.vue";
 import Comment from "./components/Comment.vue";
 import Print from "./components/Print.vue";
-import Friendship from "./components/Friendship.vue";
+
 import Diary from "./components/Diary.vue";
 
 export default {
@@ -13,7 +13,7 @@ export default {
     app.component("Comment", Comment);
     app.component("Tags", Tags);
     app.component("Docs", Docs);
-    app.component("Friendship", Friendship);
+
     app.component("Print", Print);
     app.component("Diary", Diary);
     // app is the Vue 3 app instance from createApp()

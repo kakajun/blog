@@ -15,15 +15,18 @@ async function getConfig() {
       // 引入 Gitalk
       [
         "link",
-        { rel: "stylesheet", href: "https://lib.baomitu.com/gitalk/1.7.0/gitalk.min.css" },
+        {
+          rel: "stylesheet",
+          href: "https://lib.baomitu.com/gitalk/1.7.0/gitalk.min.css",
+        },
       ],
       ["script", { src: "https://lib.baomitu.com/gitalk/1.7.0/gitalk.min.js" }],
-      ["script", { src: "https://lib.baomitu.com/axios/0.21.1/axios.js" }]
+      ["script", { src: "https://lib.baomitu.com/axios/0.21.1/axios.js" }],
     ],
     title: "前端笔记",
     themeConfig: {
-      displayAllHeaders:true,
-      logo: '/favicon.ico',
+      displayAllHeaders: true,
+      logo: "/favicon.ico",
       pages: await getPages(),
       author: "前端笔记",
       search: true,
@@ -31,19 +34,17 @@ async function getConfig() {
         { text: "🏠 首页", link: "/" },
         { text: "📅 归档", link: "/more/docs" },
         { text: "📂 分类", link: "/more/tags" },
-        // { text: "👫 友情链接", link: "/more/Friendship" },
         {
-          text: '🔨 关于',
+          text: "🔨 关于",
           items: [
             { text: "📜 README", link: "/README" },
-            // { text: "📫 订阅我", link: "/more/subscribe" },
             { text: "📝 建站日志", link: "/more/update-log" },
-          ]
+          ],
         },
       ],
     },
     dest: "public",
-    base:'/blog/'
+    // base: "/blog/",
   };
   return config;
 }
