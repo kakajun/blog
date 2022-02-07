@@ -3,7 +3,7 @@
      <footer class="page-edit">
       <a v-for="(item,index) in data.platform" :key="index" :href="item.href"><img class="imgIcon" :src="item.icon" ></a>
       </footer>
-     <p class="platform">以上皆为 <a href="javascript:;">悲伤日记</a> 文章发布平台</p>
+     <p class="platform">以上皆为 <a href="javascript:;">前端笔记</a> 文章发布平台</p>
      <p class="platform"> Copyright &copy; 2020-2021 <a href="https://github.com/CrazyMrYan">@CrazyMrYan</a> </p>
   </div>
 </template>

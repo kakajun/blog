@@ -22,8 +22,8 @@
     <div class="home-bg" v-if="enableHome">
       <div class="content-bg">
         <h1>
-          CrazyYan
-          <p>一个有温度的野生前端猿人</p>
+          kakajun
+          <p>Know a little, so I must try to learn more</p>
         </h1>
       </div>
     </div>
@@ -132,20 +132,20 @@ export default {
           },
           {
             icon: "icon-github",
-            link: "https://github.com/CrazyMrYan",
+            link: "https://github.com/kakajun",
             event: false,
           },
           {
             icon: "icon-youjian",
-            link: "https://github.com/CrazyMrYan",
+            link: "https://github.com/kakajun",
             event: false,
           },
         ],
-        nickName: "CrazyYan",
+        nickName: "kakajun",
         skill:
           "精通 Ai、Fw、Fl、Br、Ae、Pr、Id、Ps 等软件的安装与卸载，精通 CSS、JavaScript、PHP、ASP、C、C++、C#、Java、Ruby、Perl、Lisp、Python、Objective-C、ActionScript、Pascal 等单词的拼写，熟悉 Windows、Linux、OS X、Android、iOS、WP8 等系统的开关机。",
         synopsis:
-          "老严 专注于潜水、摸鱼、搬砖。兴趣使然的一个野生(FE)程序猿",
+          "Know a little, so I must try to learn more",
       },
     };
   },
@@ -251,7 +251,7 @@ export default {
 .content-bg h1 p {
   font: bold 200% Consolas, Monaco, monospace;
   border-right: 0.1em solid;
-  width: 12em; /* fallback */
+  width: 24em; /* fallback */
   /* width: 30ch; # of chars */
   margin: 2em 1em;
   white-space: nowrap;

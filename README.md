@@ -83,7 +83,7 @@ yarn dev
 ```diff
 let config = {
     head:[...],
-    title:'悲伤日记',
+    title:'前端笔记',
     themeConfig:{...},
     dest: 'public',
 +   base:'你的存放文件名'
