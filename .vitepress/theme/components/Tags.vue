@@ -56,7 +56,7 @@
       };
     },
     mounted(){
-       axios.post('http://42.193.173.48:3000/api/log',{url:document.title})
+      //  axios.post('http://42.193.173.48:3000/api/log',{url:document.title})
     }
   });
 </script>

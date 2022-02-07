@@ -21,16 +21,16 @@ export default {
         }
     },
     mounted(){
-        axios.post('http://42.193.173.48:3000/api/friendship/list',{
-                "type":'pass'
-        })
-        .then( (response)=> {
-           this.FriendshipData = response.data.data;
-        })
-        .catch( (error) =>{
-            console.log(error);
-        });
-       axios.post('http://42.193.173.48:3000/api/log',{url:document.title})
+      //   axios.post('http://42.193.173.48:3000/api/friendship/list',{
+      //           "type":'pass'
+      //   })
+      //   .then( (response)=> {
+      //      this.FriendshipData = response.data.data;
+      //   })
+      //   .catch( (error) =>{
+      //       console.log(error);
+      //   });
+      //  axios.post('http://42.193.173.48:3000/api/log',{url:document.title})
     }
 };
 </script>
