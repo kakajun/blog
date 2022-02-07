@@ -1,4 +1,5 @@
 const getPages = require("./utils/pages");
+const isPro = process.env.NODE_ENV === "production";   // 开发换行时process.env 为undefined
 async function getConfig() {
   let config = {
     head: [
@@ -44,7 +45,7 @@ async function getConfig() {
       ],
     },
     dest: "public",
-    base: "/blog/",
+    base: isPro ? "/blog" : "",
   };
   return config;
 }
