@@ -1,4 +1,4 @@
-const type = 'dev'
-export function Build(){
-    return type === 'build' ? '/blog' : ''
+// base 统一在这改
+export function Build() {
+    return  '/blog' 
 }
