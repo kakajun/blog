@@ -29,6 +29,4 @@ describe: 个人日记本
 
 如果您不想被打扰，只是偶尔看看文章可以关注我们的微信订阅号，长期推送
 
-![](../docs/images/beishang.jpg)
-
 <Comment />
