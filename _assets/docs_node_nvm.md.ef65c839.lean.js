@@ -1,0 +1,1 @@
+import{g as t,f as e}from"./common-bec3f312.js";const r='{"title":"立即执行函数","frontmatter":{"date":"2022-02-01","title":"立即执行函数","tags":["js"],"describe":"概念"},"relativePath":"docs/node/nvm.md","lastUpdated":1644245599381.2708}';var a={};a.render=function(r,a,o,d,n,s){return e(),t("div")};export default a;export{r as __pageData};
