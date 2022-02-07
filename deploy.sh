@@ -4,16 +4,15 @@
 set -e
  
 # 生成静态文件 
-# yarn build
+yarn build
  
 # 进入生成的文件夹
 cd .vitepress/dist 
  
-git init
-git add -A
+git add .
 git commit -m 'deploy'
  
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f https://github.com/Moking1997/Moking1997.github.io.git master
+git push -f https://github.com/kakajun/blog gh-pages
  
 cd -
